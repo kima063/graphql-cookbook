@@ -14,4 +14,4 @@ python manage.py runserver
 After these, Open a browser to http://127.0.0.1:8000/ , one can go to the admin site by adding the 'admin/' endpoint in the url which is http://127.0.0.1:8000/admin/ and one can go to the graphql site for writing quiries by adding the 'graphql' endpoint in the url which is
 http://127.0.0.1:8000/graphql .
 
-<em> N.B: One might need to make the ALLOWED_HOSTS from setting.py an empty string. </em>
+<em> N.B: One might need to make the ALLOWED_HOSTS from cookbook/settings.py an empty string. </em>
