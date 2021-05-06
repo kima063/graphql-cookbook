@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-vgr35ei$^)%-8v)*f)z60%czf2jtx4+sdkce++%-6ygn5(pzj7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['graphql-graphene-cookbook.herokuapp.com']
 
 
 # Application definition
